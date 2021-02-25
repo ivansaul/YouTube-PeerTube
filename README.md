@@ -4,7 +4,7 @@ This script is written in Python3, that download (videos/playlists) from YouTube
 ## Installation
 To install, clone the repository to a directory on your machine. Then, navigate to that directory in a terminal and run: 
 ```bash
-git clone url
+git clone https://github.com/ivansaul/YouTube-PeerTube.git
 ```
 ```
 python3 -m venv venv
