@@ -3,3 +3,4 @@ venv/
 venvPyTube/
 peertube_secret
 *.ipynb_checkpoints
+data/
