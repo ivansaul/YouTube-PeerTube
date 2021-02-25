@@ -164,7 +164,15 @@ for url_pl in urls_pl:
 # In[ ]:
 
 
-if delete_videos:
-    del_folder(output_path)
-    print(f'🗑️ All videos on the {play_list} playlist were removed')
+for url_pl in urls_pl:
+    #playlist object
+    pl = Playlist(url_pl)
+    #playlist name 
+    play_list=pl.title #play_list='rock'
+    
+    output_path = f'data/{channel}/{play_list}'
+
+    if delete_videos:
+        del_folder(output_path)
+        print(f'🗑️ All videos on the {play_list} playlist were removed')
 
