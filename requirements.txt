@@ -1,0 +1,6 @@
+pytube==10.5.1
+toml==0.10.2
+pandas==1.2.2
+sty==1.0.0rc1
+requests==2.25.1
+prismedia==0.11.0

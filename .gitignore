@@ -1,0 +1,5 @@
+config.toml
+venv/
+venvPyTube/
+peertube_secret
+*.ipynb_checkpoints

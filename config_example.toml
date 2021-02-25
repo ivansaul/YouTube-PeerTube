@@ -1,0 +1,8 @@
+peertube_instance = "https://peertube.url"
+peertube_channel = "peertube_channel"
+peertube_username = "username"
+peertube_password = "password"
+peertube_channel_category = "education"
+default_lang = "spanish"
+delete_videos = "False"
+privacy_videos = "public"
